@@ -66,7 +66,7 @@ class HomePageFragment : Fragment() {
         activity?.supportFragmentManager?.beginTransaction()
             ?.replace(R.id.fragment, fragment)
             ?.addToBackStack(null)
-            ?.commit()
+            ?.commit() 
     }
 
     private fun getToyData(): List<Toys> {
